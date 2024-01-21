@@ -2,7 +2,12 @@
   "name": "@indraraj26/iy-ui-switch-theme",
   "version": "1.0.0",
   "description": "Switch Theme Web Components",
-  "homepage": "https://github.com/indraraj26/ion-camera",
+  "homepage": "https://github.com/indraraj26/iy-ui-switch-theme",
+  "keywords": [
+		"switch theme web components",
+		"switch theme",
+		"web component"
+	],
   "main": "switch-theme.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

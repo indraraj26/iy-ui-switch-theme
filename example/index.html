@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog</title>
+</head>
+<style>
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+    }
+
+    :root {
+        --primary-color: rgb(68, 128, 249);
+        --primary-text-color: black;
+        --primary-bg-color: white;
+    }
+
+    :root.dark {
+        --primary-color: rgb(74, 50, 50);
+        --primary-text-color: white;
+        --primary-bg-color: black
+    }
+
+    body {
+        padding: 10px;
+        background-color: var(--primary-bg-color);
+    }
+
+    h1 {
+        color: var(--primary-text-color)
+    }
+
+    button {
+        background-color: var(--primary-color);
+        color: var(--primary-text-color);
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .content {
+        margin-top: 20px;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <h1>Welcome to my blog</h1>
+        <iy-ui-switch-theme></iy-ui-switch-theme>
+    </div>
+    <div class="content">
+        <button>Awesome Button 1</button>
+    </div>
+    <script src="../switch-theme.js"></script>
+</body>
+
+</html>
